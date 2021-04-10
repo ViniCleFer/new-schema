@@ -9,28 +9,11 @@
     "laravel",
     "lumen"
   ],
-  "author": {
-    "name": "Iftekhar Rifat",
-    "email": "rifat662@gmail.com",
-    "url": "https://github.com/Agontuk"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/Agontuk/schema-designer.git"
-  },
   "license": "MIT",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "precommit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "cross-env CI=true yarn test --bail --findRelatedTests",
-      "git add"
-    ]
+    "test": "react-scripts test"
   },
   "dependencies": {
     "classnames": "^2.2.5",
